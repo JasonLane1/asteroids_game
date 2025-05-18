@@ -7,3 +7,4 @@
 # I then pushed back to github with the saved changes and it worked. Removing venv/ from the directory and adding them to both the .gitignore file as well as now being untracked by git.
 
 # Created and init the pygame 3 stage game loop - Was a bit confused how this worked to start with but have a pretty good idea now.
+# Fill the screen (surface) black and flip to update. Havent added fps limit yet will do next.
