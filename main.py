@@ -3,11 +3,7 @@ import pygame
 from constants import *
 from player import *
 
-def main(self, x, y):
-    def __init__(self, x, y):
-        self.x = SCREEN_WIDTH / 2
-        self.y = SCREEN_HEIGHT / 2
-
+def main():
     pygame.init()
     print('Starting Asteroids!')
     print(f"Screen width: {SCREEN_WIDTH}")
@@ -17,7 +13,7 @@ def main(self, x, y):
     clock = pygame.time.Clock()
     dt = 0
 
-    player = Player(self.x, self.y)
+    player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
 
     while True:
         for event in pygame.event.get():
