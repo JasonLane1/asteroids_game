@@ -27,7 +27,7 @@ def main():
         
         screen.fill((0,0,0))
         updatable.update(dt)
-        updatable.move(dt)
+        player.move(dt)
         for object in drawable:
             object.draw(screen)
 
