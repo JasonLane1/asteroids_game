@@ -1,4 +1,5 @@
 import pygame
+import sys
 #from database import connect_database, database_version
 from constants import *
 from player import *
@@ -29,20 +30,19 @@ def main():
             if event.type == pygame.QUIT:
                 return
         
-        
         screen.fill((0,0,0))
         updatable.update(dt)
+        for ast in asteroids:
+            if ast.collisions(player):
+                print("Game over!")
+                sys.exit()
+
         player.move(dt)
         for object in drawable:
             object.draw(screen)
 
         pygame.display.flip()
-
-
-
         dt = clock.tick(60) / 1000
 
-
-    
 if __name__ == "__main__":
     main()
