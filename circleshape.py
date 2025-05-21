@@ -24,3 +24,10 @@ class CircleShape(pygame.sprite.Sprite):
             self.rotate(-dt)
         if keys[pygame.K_d]:
             self.rotate(dt)
+
+    def collisions(self, other_obj):
+        distance = pygame.math.Vector2.distance_to(self.position, other_obj.position)
+        if distance > (self.radius + other_obj.radius):
+            return True
+        else:
+            return False
