@@ -8,3 +8,5 @@
 
 - Created and init the pygame 3 stage game loop - Was a bit confused how this worked to start with but have a pretty good idea now.
 - Fill the screen (surface) black and flip to update. Havent added fps limit yet will do next.
+
+- Been going at the assignment everyday but getting really confused with a lot of the steps.
