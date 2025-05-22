@@ -1,4 +1,4 @@
-## Asteroids_game
+# Asteroids_game
 ### Started up my pygame project for astroids
 
 - Had some issues with the virtual environment and python tracking modules but fixed those.
@@ -10,3 +10,4 @@
 - Fill the screen (surface) black and flip to update. Havent added fps limit yet will do next.
 
 - Been going at the assignment everyday but getting really confused with a lot of the steps.
+- A lot of whats being done in the assignment is being handled by pygame and we're just copying a lot of code to make things work. Its been really confusing using this even though I have the documentation its hard to piece all the pieces together Ive never seen work before.
