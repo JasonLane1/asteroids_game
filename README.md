@@ -16,3 +16,4 @@
 
 - Completing the astroids project felt pretty empty, I didnt learn a whole lot about classes or pygame either mostly about using multiple files and virtual environments.
 - OOP when heavily nested still isn't clicking for me so I will be practicing it on the side to help.
+- Moving onto functional programming that is already clicking a lot easier for me. Will see if theres ways to connect the two so I can cross over some skills from one to the other making it easier to understand.
