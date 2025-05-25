@@ -15,3 +15,4 @@
 - Will work on just focusing on the classes, the structure and the importing from each file to the next while working inside a venv so that I bring something away from this course.
 
 - Completing the astroids project felt pretty empty, I didnt learn a whole lot about classes or pygame either mostly about using multiple files and virtual environments.
+- OOP when heavily nested still isn't clicking for me so I will be practicing it on the side to help.
