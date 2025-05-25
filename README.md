@@ -13,3 +13,5 @@
 - A lot of whats being done in the assignment is being handled by pygame and we're just copying a lot of code to make things work. Its been really confusing using this even though I have the documentation its hard to piece all the pieces together Ive never seen work before.
 - Im trying to study the syntax and library to understand what Im doing but its taking a lot of time to debug and truely figure out what everything is doing. Not a fan of this one tbh. Very hand holdy and does most of the work for you with minimal explanation.
 - Will work on just focusing on the classes, the structure and the importing from each file to the next while working inside a venv so that I bring something away from this course.
+
+- Completing the astroids project felt pretty empty, I didnt learn a whole lot about classes or pygame either mostly about using multiple files and virtual environments.
